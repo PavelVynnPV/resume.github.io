@@ -114,9 +114,33 @@ body {
 }
 .level-fill {
     background-color: rgb(35, 226, 35);
-    width: 50%;
     height: 20px;
 }
+
+/* ----------------------------------- */
+
+.html-level {
+    width: 85%;
+}
+.java-level {
+    width: 67%;
+}
+.jquery-level {
+    width: 60%;
+}
+.materialize-level {
+    width: 85%;
+}
+.vue-level {
+    width: 10%;
+}
+.react-level {
+    width: 20%;
+}
+.photoshop-level {
+    width: 70%;
+}
+/* ---------------------------- */
 
 @media (max-width: 1000px) {
     .scale {
