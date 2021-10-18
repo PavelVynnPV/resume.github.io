@@ -1,0 +1,149 @@
+body {
+    background-image: url("https://wallpaperaccess.com/full/1388946.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    font-family: 'Domine', serif;
+}
+.main {
+    max-width: 1200px;
+    margin: 50px auto;
+    background-color: rgba(0, 0, 0, 0.76);
+    color: #fff;
+    border: 3px solid #fff;
+    display: flex;
+}
+.container {
+    width: 100%;
+    display: flex;
+}
+/* --------------------------------------- */
+.swiper {
+    width: 200px;
+    border-radius: 20%;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+/* -------------------------------- */
+
+
+.myInfo {
+    background-color: rgb(109, 41, 2);
+}
+.myProgress {
+    border-left: 3px solid #fff;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.profile-photo {
+    width: 300px;
+}
+.main-blocks {
+    padding: 20px;
+    text-align: center;
+}
+.contacts-list {
+    width: 260px;
+    margin: auto;
+    text-align: left;
+    font-size: 15px;
+}
+.important-text {
+    font-weight: bold;
+    color: rgb(207, 245, 38);
+}
+.contacts-list li {
+    margin: 5px;
+}
+.fas, .fab {
+    margin-right: 5px;
+}
+.fa-github {
+    margin-left: 0 !important;
+}
+.projects-block {
+    margin: 20px;
+}
+.projects-block li{
+    font-size: 20px;
+    text-align: left;
+    margin: 15px;
+}
+.projects-block .fas, .fab {
+    margin-left: 10px;
+}
+
+/* ------------------------------- */
+
+.scale {
+    width: 100%;
+    display: flex;
+}
+.sec-scale {
+    margin: 70px 70px 0 0;
+}
+.scale h5 {
+    margin: 5px 20px 5px 50px;
+    width: 200px;
+    text-align: left;
+}
+.level {
+    width: 100%;
+    height: 20px;
+    background-color: #fff;
+    justify-content: left;
+}
+.level-fill {
+    background-color: rgb(35, 226, 35);
+    width: 50%;
+    height: 20px;
+}
+
+@media (max-width: 1000px) {
+    .scale {
+        display: flex;
+        flex-direction: column;
+    }
+    .main {
+        margin: 30px;
+    }
+}
+
+@media (max-width: 750px) {
+    .swiper {
+        max-width: 400px;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+    .projects-block li{
+        text-align: center;
+    }
+    .sec-scale {
+        margin: 0;
+    }
+    .scale h5{
+        text-align: center;
+        margin: 10px auto;
+    }
+}
