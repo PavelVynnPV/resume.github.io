@@ -137,6 +137,9 @@ body {
 .react-level {
     width: 50%;
 }
+.redux-level {
+    width: 20%;
+}
 .photoshop-level {
     width: 70%;
 }
