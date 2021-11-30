@@ -43,7 +43,18 @@ body {
   }
 
 /* -------------------------------- */
-
+.collapsible-header {
+    background: none;
+    border: none;
+    margin-left: 50px;
+}
+.collapsible {
+    border: none;
+}
+.collapsible-body {
+    padding: 10px;
+    border: none;
+}
 .name {
     margin-bottom: 50px;
 }
