@@ -44,7 +44,9 @@ body {
 
 /* -------------------------------- */
 
-
+.name {
+    margin-bottom: 50px;
+}
 .myInfo {
     background-color: rgb(109, 41, 2);
 }
